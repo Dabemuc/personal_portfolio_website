@@ -37,7 +37,7 @@ export default function Main() {
   function buildSection(index: number, section: Section) {
     return (
       <section
-        id={index.toString()}
+        key={index}
         className="relative flex items-center justify-center h-[75vh] border border-black"
       >
         {section.background}

@@ -1,3 +1,5 @@
+"use client";
+
 import { WelcomeContent, WelcomeBackground } from "./welcome";
 import AboutMe from "./aboutMe";
 import ContactMe from "./contactMe";

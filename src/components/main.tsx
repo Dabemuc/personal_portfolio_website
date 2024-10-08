@@ -49,7 +49,7 @@ export default function Main() {
   }
 
   return (
-    <main className="bg-green-400">
+    <main className="bg-background">
       {sections.map((section, index) => buildSection(index, section))}
     </main>
   );
